@@ -42,6 +42,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(10, 50);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(50, 50);
@@ -51,6 +52,7 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(66, 50);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(50, 50);
@@ -60,6 +62,7 @@
             // 
             // button3
             // 
+            this.button3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(122, 50);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 50);
@@ -69,6 +72,7 @@
             // 
             // button4
             // 
+            this.button4.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(10, 102);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(50, 50);
@@ -78,6 +82,7 @@
             // 
             // button5
             // 
+            this.button5.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(66, 102);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(50, 50);
@@ -87,6 +92,7 @@
             // 
             // button6
             // 
+            this.button6.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(122, 102);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(50, 50);
@@ -96,6 +102,7 @@
             // 
             // button7
             // 
+            this.button7.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Location = new System.Drawing.Point(10, 158);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(50, 50);
@@ -105,6 +112,7 @@
             // 
             // button8
             // 
+            this.button8.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.Location = new System.Drawing.Point(66, 158);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(50, 50);
@@ -114,6 +122,7 @@
             // 
             // button9
             // 
+            this.button9.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(122, 158);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(50, 50);
@@ -128,6 +137,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(160, 20);
             this.textBox1.TabIndex = 9;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
